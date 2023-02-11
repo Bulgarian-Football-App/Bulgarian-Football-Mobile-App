@@ -28,11 +28,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
 
 flutter_native_splash:
   color: "#343434"
-  image: assets/default_logo.png
+  image: assets/images/default_logo.png
 
   android_12:
     icon_background_color: "#343434"
-    image: assets/splash_screen_logo.png
+    image: assets/images/splash_screen_logo.png
